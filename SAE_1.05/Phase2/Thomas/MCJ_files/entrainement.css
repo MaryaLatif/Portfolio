@@ -1,0 +1,44 @@
+.icon{
+    display: flex;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.line{
+    width: 100%;
+    border: 2px solid #FF0000;
+}
+label{
+    color:white;
+    font-size: x-small;
+    width: 40px;
+    text-align: center;
+    margin: 0 10px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+header > nav, footer{
+    box-shadow: 0px 0px 15px black;
+}
+section{
+    height: 100%;
+}
+footer {
+    font-size: x-small;
+}
+.x-small{
+    font-size: 12px;
+}
+.b-height{
+    height: 40em;
+}
+.p-red{
+    color :#FF0000;
+}

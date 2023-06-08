@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MCJ</title>
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+    <meta charset="UTF-8" />
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-icons.css" rel="stylesheet">
+    <link href="css/local.css" rel="stylesheet">
+    <link href="css/MCJ.css" rel="stylesheet">
+    <script src="js/MCJ.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-dark pb-0 bg-dark">
+            <div class="container-fluid">
+                <div class="flex col-2">
+                    <div class="position-relative">
+                        <button id="menu" class="navbar-toggler d-inline d-sm-none" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#navbar_hidden"
+                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <nav class="icon">
+                                <div class="line"></div>
+                                <div class="line"></div>
+                                <div class="line"></div>
+                            </nav>
+                        </button>
+                        <img src="images/Capture d’écran 2022-12-12 à 21.48.43.png" height="50px"
+                            class="d-none d-sm-inline degre--20 btn" id="logoMcj"></img>
+                        <div id="search" class="position-absolute bg-dark d-none text-white mt-1">
+                            <div class="input-group mt-3 mx-2">
+                                <button class="btn btn-outline-secondary" type="submit">Rechercher</button>
+                                <input type="text" class="form-control" placeholder="リサーチする">
+                            </div>
+                            <ul class="list-unstyled menu-phone">
+                                <li class="mt-3 ms-2"><a href="" class="text-decoration-none text-white">Actualité</a>
+                                </li>
+                                <li class="mt-3 ms-2"><a href="" class="text-decoration-none text-white">Le Japon</a>
+                                </li>
+                                <li class="mt-3 ms-2"><a href="" class="text-decoration-none text-white">La Maison de la
+                                        Culture du Japon</a></li>
+                                <li class="mt-3 ms-2"><a href="" class="text-decoration-none text-white">Forum</a></li>
+                                <li class="mt-3 ms-2"><a href="" class="text-decoration-none text-white">Billetterie</a>
+                                    <ul class="list-unstyled d-none">
+                                        <li class="mt-2 ms-2"><a href=""
+                                                class="text-decoration-none text-white">Gratuit</a></li>
+                                        <li class="mt-2 ms-2"><a href=""
+                                                class="text-decoration-none text-white">Réservation</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <label class="d-none d-sm-inline ">メニュー MENU</label>
+                </div>
+                <div class="col-8 d-sm-inline d-none">
+                    <ul class="x-small list-unstyled navbar pb-0 row row-cols-5 text-center">
+                        <li>
+                            <a href="#!" class="text-white text-decoration-none ">Actualité</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white text-decoration-none">Le Japon</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white text-decoration-none">La Maison de la Culture du Japon</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white text-decoration-none">Forum</a>
+                        </li>
+                        <li id="billetterie" class="position-relative">
+                            <a href="" class="text-white text-decoration-none">Billetterie</a>
+                            <div id="bi-menu" class="position-absolute d-none">
+                                <ul class="text-start list-unstyled bg-dark">
+                                    <li class="mt-4 ps-2"><a href="" class="text-decoration-none text-white">Gratuit
+                                    </li>
+                                    <li class="mt-2 ps-2"><a href=""
+                                            class="text-decoration-none text-white">Réservation</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a id="connexion" class="nav-link" href="">Connexion</a>
+                        <ul id="co-menu" class="small position-absolute bg-dark list-unstyled d-none">
+                            <li class="mt-2 ps-2"><a href="Connexion_MCJ.html" class="text-decoration-none text-white"
+                                    target="_blank">Se Connecter</a>
+                            </li>
+                            <li class="mt-2 ps-2"><a href="Inscription_MCJ.html" class="text-decoration-none text-white"
+                                    target="_blank">S'inscrire</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="font-f">
+
+        <h1 class="text-center col-sm-6 col-12 pt-4 p-red">Activités du moment :
+            現在の活動</h1>
+        <div class="container-fluid row mb-3 col-12 m-auto oh-f1">
+
+            <section class="bg-img rounded-2 col-12 col-lg-6 row row-cols-1 row-cols-sm-2 row-cols-md-3 shadow body-l">
+                <article class="col card degre--20 m-card btn">
+                    <img src="images/actualité1.jpg" height="198px" class="rounded-circle" />
+                    <p>Spectacles - 22 > 26 nov. 2022</p>
+                    <h1 class="lead">À LA MARGE</h1>
+                    <h4>舞台公演</h4>
+                </article>
+                <article class="col card degre--20 m-card btn">
+                    <img src="images/actu2.jpg" class="rounded-circle" />
+                    <p>Spectacles - ven. 27 / sam. 28 jan. 2023</p>
+                    <h1 class="lead">OCEANIC FEELING</h1>
+                    <h4>舞台公演</h4>
+                </article>
+                <article class="col card degre--20 m-card btn">
+                    <img src="images/actu3.jpg" class="rounded-circle" />
+                    <p>Cinéma - Du 10 septembre au 22 décembre 2022</p>
+                    <h1 class="lead">UN AN AVEC TORA SAN</h1>
+                    <h4>映画</h4>
+                </article>
+                <article class="col card degre--20 m-card btn">
+                    <img src="images/actu4.jpg" class="rounded-circle" />
+                    <p>Cinéma - Du 6 au 17 décembre 2022</p>
+                    <h1 class="lead">LE JAPON CACHÉ DE KAZUHIRO SODA</h1>
+                    <h4>映画</h4>
+                </article>
+                <article class="col card degre--20 m-card btn">
+                    <img src="images/actu5.jpg" class="rounded-circle" />
+                    <p>Exposition - Du 29 novembre 2022 au 14 janvier 2023</p>
+                    <h1 class="lead">PETIT DESIGN</h1>
+                    <h4>展覧会</h4>
+                </article>
+                <article class="col card degre--20 m-card btn">
+                    <img src="images/actu6.jpg" class="rounded-circle" />
+                    <p>Cinéma - Du 6 au 17 décembre 2022</p>
+                    <h1 class="lead">KINOTAYO</h1>
+                    <h4>映画</h4>
+                </article>
+            </section>
+            <section class=" col-12 col-lg-6 row g-0 ms-3 d-none d-lg-flex">
+                <div class="col-4 flex">
+                    <p class="display-1 col-1 p-red large position-relative"> 日
+                        本
+                        の
+                        文
+                        化
+                        の
+                        家
+                        <img src="images/Capture d’écran 2022-12-12 à 21.48.43.png" height="50px"
+                            class="d-none d-md-inline degre--20 position-absolute logoMcj"></img>
+                    </p>
+                    <p class="degre-90 text-center d-none d-lg-flex">
+                        La Maison de la Culture du Japon
+                    </p>
+                </div>
+                <div class="col-8 flex">
+                    <img src="images/mascotte.jpg" width="100%" />
+                </div>
+
+            </section>
+        </div>
+
+    </main>
+
+    <footer class="text-center text-lg-start pt-4 bg-dark ">
+        <div class="container-fluid row row-cols-2 flex justify-content-around">
+            <div class="col-md-5 col-12">
+                <ul class="text-white list-unstyled row row-cols-1 row-cols-sm-4">
+                    <li>Tel : 0109270712</li>
+                    <li>Mail : mdc@gmail.com</li>
+                    <li>
+                        <a href="https://www.instagram.com/?hl=fr"><img class="logo mx-2"
+                                src="images/logo_instagram.png" /></a>
+                        <a href="https://fr-fr.facebook.com/"><img class="logo mx-2"
+                                src="images/Logo-Facebook-png.png" /></a>
+                        <a href="https://twitter.com/?lang=fr"><img class="logo mx-2"
+                                src="images/Twitter-logo.svg.webp" /></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-7 d-md-inline d-none text-end">
+                <ul class="list-unstyled mb-4 row row-cols-6">
+                    <li>
+                        <a href="#!" class="text-white text-decoration-none">Page représentative du site</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-white text-decoration-none">Authentification</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-white text-decoration-none">Mentions légales</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-white text-decoration-none">Plan du site</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-white text-decoration-none">Accessibilité</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-white text-decoration-none">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>
