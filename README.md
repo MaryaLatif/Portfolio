@@ -1,2 +1,2 @@
 # Portfolio
-Gathers all the projects I've done 
+Ce projet github rassemble toutes les SAE réalisées durant mon BUT. 
